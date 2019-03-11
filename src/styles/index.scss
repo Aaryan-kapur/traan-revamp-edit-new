@@ -3,7 +3,7 @@ $body-color: blue;
 * {
   padding: 0;
   margin: 0;
-  // border: 1px solid blue;
+  border: 1px solid blue;
   font-family: 'Open Sans', sans-serif !important;
 }
 
@@ -125,64 +125,16 @@ body {
         font-weight: 700;
       }
     }
-
-    main {
-      height: 80vh;
-      position: relative;
-      min-height: 40vh;
-
-      // padding: 10px;
-      .col {
-        height: 100%;
-        padding: 0;
-
-        h3 {
-          font-size: 1.2em;
-          margin: 0;
-          font-weight: 800;
-          text-align: center;
-          text-transform: uppercase;
-        }
-
-        .inner {
-          padding-top: 10px;
-          height: 75%;
-          position: relative;
-          top: 50%;
-          transform: translateY(-50%);
-
-          p.header {
-            margin: 10px 0px;
-            text-align: center;
-            font-weight: bold;
-
-            @media only screen and (max-width: 801px) {
-
-              font-size: 0.8em;
-            }
-
-            .footer {
-              // height: 100%;
-              // position: absolute;
-              top: 50%;
-              transform: translateY(-50%);
-
-              p {
-                margin: 10px 0px;
-                text-align: center;
-                // font-weight: bold;
-              }
-            }
-          }
-        }
-      }
-
-      .col:nth-child(odd) {
-        .inner {
-          background: linear-gradient(180deg, #fe8c00, #f83600);
-        }
+    .container.row>.first{
+      margin-left: 10%;
+      @media only screen and (max-width: 601px){
+        margin-left: 0;
       }
     }
+    span.card-title{
+      font-weight: 700;
+    }
+    // main {
 
     footer {
       height: 10vh;
@@ -193,18 +145,23 @@ body {
   section.footer {
     // min-height: 20vh;
     background: linear-gradient(135deg, rgb(162, 33, 248) 0%, hsl(258, 100%, 50%) 100%);
+
     .container {
       // min-height: 20vh;
-      
+
       display: flex;
       flex-wrap: wrap;
-      .flex-item{
+
+      .flex-item {
         position: relative;
         // transform:translateY(50%);
-        width:25%;
-        margin:2vh 0;
+        width: 25%;
+        margin: 2vh 0;
         position: relative;
+
         p{
+          display: block;
+          margin: 0 auto;
           text-align: center;
         }
       }
