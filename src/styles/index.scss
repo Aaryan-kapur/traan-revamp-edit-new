@@ -116,6 +116,7 @@ body {
   }
 
   section.about {
+    min-height: 100vh;
     .top {
       height: 10vh;
 
@@ -125,8 +126,12 @@ body {
         font-weight: 700;
       }
     }
-    .container.row>.first{
-      margin-left: 10%;
+    .wrapper{
+      margin: 10vh auto;
+      width: 100%;
+    }
+    .row>.first{
+      margin-left: 10% ;
       @media only screen and (max-width: 601px){
         margin-left: 0;
       }
