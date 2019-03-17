@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important; }
+
+.row {
+  margin-bottom: 0px; }
+
+body {
+  color: blue; }
+  body section.top {
+    background: url(assets/back2.svg) no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 801px) {
+      body section.top {
+        background: white; } }
+    body section.top nav {
+      padding: 0 2vw;
+      height: 10vh; }
+      body section.top nav .wrapper a.brand-logo {
+        font-size: 0; }
+        body section.top nav .wrapper a.brand-logo img {
+          height: 8vh;
+          width: auto;
+          position: relative;
+          top: 50%; }
+    @media only screen and (min-width: 993px) {
+      body section.top main.container {
+        width: 80%; } }
+    body section.top main {
+      height: 80vh; }
+      body section.top main .col {
+        height: 100%; }
+        body section.top main .col .services {
+          font-weight: 800; }
+      @media only screen and (max-width: 801px) {
+        body section.top main .col.left {
+          width: 100%; }
+          body section.top main .col.left .section {
+            margin: 0; } }
+      @media only screen and (max-width: 801px) and (min-width: 641px) {
+        body section.top main .col.left {
+          height: 50%; } }
+      body section.top main .col.right {
+        position: relative; }
+        @media only screen and (max-width: 801px) {
+          body section.top main .col.right {
+            display: none; } }
+        body section.top main .col.right .monitor {
+          position: absolute;
+          bottom: 0;
+          left: 0; }
+          body section.top main .col.right .monitor img {
+            width: 100%; }
+        @media only screen and (max-width: 801px) and (min-width: 641px) and (orientation: portrait) {
+          body section.top main .col.right {
+            display: inline;
+            height: 50%;
+            width: 100%; }
+            body section.top main .col.right .monitor img {
+              width: 50%;
+              float: right; } }
+    body section.top footer {
+      height: 10vh; }
+  body section.about {
+    min-height: 100vh; }
+    body section.about .top {
+      height: 10vh; }
+      body section.about .top h1 {
+        text-align: center;
+        margin: 0;
+        font-weight: 700; }
+    body section.about .wrapper {
+      margin: 10vh auto;
+      width: 100%; }
+    body section.about .row > .first {
+      margin-left: 10%; }
+      @media only screen and (max-width: 601px) {
+        body section.about .row > .first {
+          margin-left: 0; } }
+    body section.about span.card-title {
+      font-weight: 700; }
+    body section.about footer {
+      height: 10vh; }
+  body section.footer {
+    background: linear-gradient(135deg, #a221f8 0%, #4d00ff 100%); }
+    body section.footer .container {
+      display: flex;
+      flex-wrap: wrap; }
+      body section.footer .container .flex-item {
+        position: relative;
+        width: 25%;
+        margin: 2vh 0;
+        position: relative; }
+        body section.footer .container .flex-item p {
+          display: block;
+          margin: 0 auto;
+          text-align: center; }
+
+
+/*# sourceMappingURL=bundle.css.map*/
