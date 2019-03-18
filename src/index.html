@@ -1,113 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>webpack starterkit</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-</head>
-
-<body>
-  <section class="top black-text">
-    <nav class="row transparent">
+  <body>
+    <section class="top black-text">
+      <nav class="row transparent">
+        <div class="wrapper">
+          <a href="#" class="black-text brand-logo">
+            <img src="../assets/logo.svg" alt="" />
+          </a>
+        </div>
+      </nav>
+      <main class="row container">
+        <div class="col s6  left">
+          <h1 style="font-size:100px;">Traan</h1>
+          <div class="section">
+            <h6 class="flow-text">
+              Healing in a matter of time, but it is sometimes also a matter of
+              opportunity.
+            </h6>
+          </div>
+          <div class="section">
+            <h6 class="services">
+              The fastest and most reliable support for medical emergencies.
+            </h6>
+          </div>
+          <div class="section">
+            <a class="deep-orange waves-effect waves-light btn"> Join Us</a>
+          </div>
+        </div>
+        <div class="col s6 right">
+          <div class="monitor">
+            <img width="400" src="../assets/mointor.svg" alt="" />
+          </div>
+        </div>
+      </main>
+      <footer></footer>
+    </section>
+    <section class="about black-text">
+      <div class="top">
+        <h1>
+          Know More
+        </h1>
+      </div>
       <div class="wrapper">
-        <a href="#" class="black-text brand-logo">
-          <img src="../assets/logo.svg" alt="">
-        </a>
-      </div>
-    </nav>
-    <main class="row container">
-      <div class="col s6  left">
-        <h1 style="font-size:100px;">Traan</h1>
-        <div class="section">
-          <h6 class="flow-text">
-            Healing in a matter of time, but it is sometimes also a matter of opportunity.
-          </h6>
-        </div>
-        <div class="section">
-          <h6 class="services">
-            The fastest and most reliable support for medical emergencies.
-          </h6>
-        </div>
-        <div class="section">
-
-          <a class="deep-orange waves-effect waves-light btn">
-            Join
-            Us</a>
-        </div>
-      </div>
-      <div class="col s6 right">
-        <div class="monitor">
-          <img width="400" src="../assets/mointor.svg" alt="">
-        </div>
-      </div>
-    </main>
-    <footer>
-
-    </footer>
-  </section>
-  <section class="about black-text">
-    <div class="top">
-      <h1>
-        Know More
-      </h1>
-
-    </div>
-    <div class="wrapper">
-    <div class="row">
-      <div class="col part s12 m3 first">
-        <div class="card">
-          <div class="card-image">
-            <img src="./assets/image_hospital.png">
-            <span class="card-title black-text">Hospitals</span>
-            <a class="btn-floating halfway-fab waves-effect waves-light red" href="hospitalKnowMore.html" style="font-size:8px; padding-left: 2px;">
-              REGISTER</a>
+        <div class="row">
+          <div class="col part s12 m3 first">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/image_hospital.png" />
+                <span class="card-title black-text">Hospitals</span>
+                <a
+                  class="btn-floating halfway-fab waves-effect waves-light red"
+                  href="hospitalKnowMore.html"
+                  style="font-size:8px; padding-left: 2px;"
+                >
+                  REGISTER</a
+                >
+              </div>
+              <div class="card-content">
+                <p>
+                  Find,Review,Enquire about hospitals near you, from our
+                  partner-hospitals.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="card-content">
-            <p>Find,Review,Enquire about hospitals near you, from our partner-hospitals</p>
+          <div class="col part s12 m3 second">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/image_volunteer.png" />
+                <span class="card-title black-text">Volunteers</span>
+                <a
+                  class="btn-floating halfway-fab waves-effect waves-light red"
+                  href="volunteerKnowMore.html"
+                  style="font-size:8px; padding-left: 2px;"
+                >
+                  REGISTER</a
+                >
+              </div>
+              <div class="card-content">
+                <p>
+                  Take help from the heroes all around you for faster response,
+                  our partner-volunteers.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-
-      </div>
-      <div class="col part s12 m3 second">
-        <div class="card">
-          <div class="card-image">
-            <img src="./assets/image_volunteer.png">
-            <span class="card-title black-text">Volunteers</span>
-            <a class="btn-floating halfway-fab waves-effect waves-light red" href="volunteerKnowMore.html" style="font-size:8px; padding-left: 2px;">
-              REGISTER</a>
-          </div>
-          <div class="card-content">
-            <p>Take help from heroes around you, our partner-volunteers</p>
+          <div class="col part s12 m3 third">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/image_user.png" />
+                <span class="card-title black-text">Patients</span>
+                <a
+                  class="btn-floating halfway-fab waves-effect waves-light red"
+                  href="volunteerKnowMore.html"
+                  style="font-size:8px; padding-left: 2px;"
+                >
+                  REGISTER</a
+                >
+              </div>
+              <div class="card-content">
+                <p>
+                  Our algorithms find our users the fastest response-support
+                  from our partners
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
-      <div class="col part s12 m3 third">
-        <div class="card">
-          <div class="card-image">
-            <img src="./assets/image_user.png">
-            <span class="card-title black-text">Patients</span>
-            <a class="btn-floating halfway-fab waves-effect waves-light red" href="volunteerKnowMore.html" style="font-size:8px; padding-left: 2px;">
-              REGISTER</a>
-          </div>
-          <div class="card-content">
-            <p>Our algorithms find our users the fastest response-support from our partners</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    </div>
-
-  </section>
-  <section class="footer">
-    <div class="container">
+    </section>
+    <section class="footer">
+      <!-- <div class="container">
       <div class="flex-1 flex-item">
         <div class="inner">
           <p> <a class="waves-effect waves-teal btn-flat" style="color:white;" href="contactUs.html">
@@ -141,10 +172,91 @@
             </a></p>
         </div>
       </div>
-    </div>
-  </section>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </div> -->
+      <!-- Footer -->
+      <footer class="page-footer font-small transparent white-text pt-4">
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+              <!-- Content -->
+              <h5 class="text-uppercase">Footer Content</h5>
+              <p>
+                The Healthcare services you deserve.
+              </p>
+            </div>
+            <!-- Grid column -->
 
-</body>
+            <hr class="clearfix w-100 d-md-none pb-3" />
 
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+              <!-- Links -->
+              <h5 class="text-uppercase">A premiere ambulance service.</h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="white-text">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#!" class="white-text">Locate Hospitals</a>
+                </li>
+                <li>
+                  <a href="./map.html" class="white-text">Map</a>
+                </li>
+                <li>
+                  <!-- <a href="#!" class="white-text">Link 4</a> -->
+                </li>
+              </ul>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+              <!-- Links -->
+              <h5 class="text-uppercase">
+                <!-- Li nks -->
+              </h5>
+
+              <ul class="list-unstyled">
+                <li>
+                  <!-- <a href="#!">Link 1</a> -->
+                </li>
+                <li>
+                  <!-- <a href="#!">Link 2</a> -->
+                </li>
+                <li>
+                  <!-- <a href="#!">Link 3</a> -->
+                </li>
+                <li>
+                  <!-- <a href="#!">Link 4</a> -->
+                </li>
+              </ul>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="container center footer-copyright text-center py-3">
+          <p style="width:100%;text-align:center;">
+          <a class="white-text" href="https://mdbootstrap.com/education/bootstrap/">
+            perplexed.tech</a>
+            </p>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+      integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
